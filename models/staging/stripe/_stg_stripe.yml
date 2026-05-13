@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_stripe__payments
+    description: ""
+    columns:
+      - name: payment_id
+        data_type: bigint
+        description: ""
+
+      - name: order_id
+        data_type: bigint
+        description: ""
+
+      - name: payment_method
+        data_type: string
+        description: ""
+
+      - name: status
+        data_type: string
+        description: ""
+
+      - name: amount
+        data_type: double
+        description: ""
+
+      - name: created_at
+        data_type: date
+        description: ""

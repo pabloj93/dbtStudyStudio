@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: ""
+    columns:
+      - name: order_id
+        data_type: bigint
+        description: ""
+
+      - name: customer_id
+        data_type: bigint
+        description: ""
+
+      - name: order_date
+        data_type: date
+        description: ""
+
+      - name: amount
+        data_type: double
+        description: ""
